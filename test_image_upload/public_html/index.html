@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+		<title>Login Page</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--<link href='css/lgStyle.css' type="text/css" rel='stylesheet'>-->
+    <script src="code.js"></script>
+    <script src="jquery.js"></script>
+	</head>
+
+
+
+<body>
+  <div class="hero">
+    <div class="form-box">
+      <div class="button-box">
+        <div id="btn">
+        <button type="button" class="toggle-btn" onclick="login()">Log In</button>
+        <button type="button" class="toggle-btn" onclick="register()">Register</button>
+        <div id='issue'></div>
+        </div>
+        <form id="login" class="input-group">
+          <input type="text" class="input-field" id='username' placeholder="Username" required>
+          <input type="text" class="input-field" id='password' placeholder="Enter Password" required>
+          <button type="submit" class="submit-btn" onclick='loginUser()'>Log In</button>
+        </form>
+        <div id='issue'></div>
+        <form id="register" class="input-group">
+          <input type="text" class="input-field" id='username2' placeholder="Username" required>
+          <input type="text" class="input-field" id='password2' placeholder="Enter Password" required>
+          <button type="submit" class="submit-btn" onclick='addUser()'>Register</button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
