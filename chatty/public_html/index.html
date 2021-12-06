@@ -1,0 +1,34 @@
+<!--
+    CSc 337
+    Finnley Hartz
+    This file contains the html for the chatty project.
+-->
+
+
+<!DOCTYPE html>
+<html lang='en'>
+  <head>
+    <meta charset="utf-8"/>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="code.js"></script>
+    <title>CHATTY</title>
+  </head>
+
+  <body>
+      <div id='chat'>
+        
+      </div>
+
+      <div id = 'inputfield'>
+        <label for='alias'>Alias</label>
+        <input type='text' name='alias' id='alias'>
+        <br>
+        <br>
+        <label for='message'>Message</label>
+        <input type='text' name='message' id='message'>
+        <br>
+        <br>
+        <input type='submit' value='Send Message' onclick='sendMessage()'>
+      </div>  
+  </body>
+</html>

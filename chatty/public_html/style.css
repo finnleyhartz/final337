@@ -1,0 +1,34 @@
+/*
+CSc 337
+Finnley Hartz
+This file contains the stylesheet for the chatty project html.
+*/
+
+
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0px;
+}
+
+#chat {
+    position: fixed;
+    top: 0px;
+    background-color: bisque;
+    width: 100%;
+    height: 70vh;
+    padding: 10px;
+    overflow-y: scroll;
+    
+}
+
+#inputfield {
+    background-color: indianred;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    height: 30vh;
+    padding: 10px;
+}
